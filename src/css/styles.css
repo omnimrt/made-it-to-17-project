@@ -5,6 +5,15 @@
   |============================
 */
 @import url('./reset.css');
+@import url('./header');
+@import url('./hero.css');
+@import url('./advertisments.css');
+@import url('./about-us.css');
+@import url('./our-courses.css');
+@import url('./our-mentors.css');
+@import url('./sign-up.css');
+@import url('./reviews.css');
+@import url('./footer.css');
 
 :root {
   font-family: 'DM SANS', sans-serif;
@@ -14,6 +23,12 @@
 
   color: #242424;
   background-color: rgba(255, 255, 255, 0.87);
+
+  .container {
+    max-width: 320px;
+    padding: 20px;
+    margin: 0 auto;
+  }
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
