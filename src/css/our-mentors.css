@@ -1,16 +1,16 @@
 .our-mentors{
-    width: 335px;
-    text-align: center;
     padding-left: 20px;
     padding-right: 20px;
     flex-shrink: 0;
     background-color: #121212;
-    height: 1152px;
     flex-shrink: 0;
-    }
+}
     
     
+
+
     .our-mentors-title{
+      text-align: left;
       color: #FFF;
       font-size: 28px;
       font-weight: 500;
@@ -25,23 +25,20 @@
     
     .our-mentors-list{
       display: flex;
-      margin-top: 72px;
+      flex-wrap: wrap;
       list-style: none;
+      margin: 0;
+      padding: 0;
+      gap:72px;
       
     }
     
     .our-mentors-item{
-    width:100%;
-    height: calc((100 - 300%) /4);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     align-items: center;
-    gap: 16px;
-    
-    margin-top: 72px;
-    gap: 100px;
+    padding-top: 72px; 
     }
+    
+    
     
 img{
     border-radius: 200px;
@@ -54,6 +51,7 @@ img{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    margin-top: 16px;
     }
     
     .our-mentors-item-text{
@@ -63,9 +61,12 @@ img{
     font-weight: 400;
     line-height: 1.33;
     letter-spacing: -0.02em;
+    margin-top: 4px;
     }
   
 
+    @media screen and (min-width:320px) and (max-width:768){
+    }
     @media screen and (min-width:768px){
 
     .our-mentors{
@@ -83,10 +84,11 @@ img{
     
     .our-mentors-list{
         gap: 100px 93px;
+        margin-top: 104px;
       }
     
       .our-mentors-item{
-      width: calc((100% - 200px) / 4);
+      width: calc((100% - 293px) / 4);
       display: flex;
       width: 194px;
       flex-direction: column;
@@ -96,7 +98,6 @@ img{
       }
     
       .our-mentors-subtitle{
-        width: 174px;
         text-align: center;
         font-size: 28px;
         line-height: 1.14;
@@ -111,13 +112,12 @@ img{
   }
      
     
-    @media screen and (min-width:1158px){
+    @media screen and (min-width:1280px){
     
   
       .our-mentors{
         width: 1240;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding: 150px 100px;
       }
     
       .our-mentors-title{
@@ -135,7 +135,7 @@ img{
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      gap: 16px;
+      margin: 104px 100px 70px 103px;
     }
     
     .our-mentors-subtitle{
