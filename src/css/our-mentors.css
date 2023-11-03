@@ -3,7 +3,7 @@
     padding-left: 20px;
     padding-right: 20px;
     flex-shrink: 0;
-    background-color: black;
+    background-color: #121212;
     height: 1152px;
     flex-shrink: 0;
     }
@@ -31,13 +31,21 @@
     
     .our-mentors-item{
     width:100%;
+    display: flex;
     flex-wrap: wrap;
-    border-radius: 200px;
-    background: var(--avatar-user-square-brianna-ware-neutral-background, url(<path-to-image>), lightgray 50% / cover no-repeat, #E0E0E0);
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    
     margin-top: 72px;
     gap: 100px;
     }
     
+img{
+    border-radius: 200px;
+    background: var(--avatar-user-square-brianna-ware-neutral-background, url(<path-to-image>), lightgray 50% / cover no-repeat, #E0E0E0); 
+}
+     
     .our-mentors-subtitle{
     color: #FFF;
     text-align: center;
@@ -50,9 +58,95 @@
     color: rgba(255, 255, 255, 0.50);
     text-align: center;
     font-size: 12px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.33;
     letter-spacing: -0.02em;
     }
   
+
+    @media screen and (min-width:768px){
+
+    .our-mentors{
+      width: 704px;
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+
+    .our-mentors-title{
+        text-align: left;
+        font-size: 48px;
+        line-height: 1.12;
+        
+      }
+    
+    .our-mentors-list{
+        gap: 100px 93px;
+      }
+    
+      .our-mentors-item{
+      width: calc((100% - 200px) / 4);
+      display: flex;
+      width: 194px;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+
+      }
+    
+      .our-mentors-subtitle{
+        width: 174px;
+        text-align: center;
+        font-size: 28px;
+        line-height: 1.14;
+      }
+    
+      .our-mentors-item-text{
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.28;
+        
+    }
+  }
+     
+    
+    @media screen and (min-width:1158px){
+    
+  
+      .our-mentors{
+        width: 1240;
+        padding-left: 100px;
+        padding-right: 100px;
+      }
+    
+      .our-mentors-title{
+      text-align: left;
+      font-size: 48px;
+      line-height: 1.12;
+      letter-spacing: -0.04em;
+    }
+    
+    .our-mentors-list{
+     width: calc((100% - 300px) / 4);
+    }
+    
+    .our-mentors-item{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+    }
+    
+    .our-mentors-subtitle{
+     text-align: center;
+     font-size: 28px;
+     font-weight: 500;
+     line-height: 1.14;
+    }
+    
+    .our-mentors-item-text{
+      text-align: center;
+      font-size: 14px;
+      line-height: 1.28;
+      letter-spacing: -0.02em;
+    }
+    }
