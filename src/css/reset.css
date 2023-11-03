@@ -33,3 +33,12 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+
+.container {
+  max-width: 320px; 
+  padding-left: 20px;
+  padding-right: 20px; 
+  margin: 0 auto;
+  /* outline: 2px solid red; */
+}
