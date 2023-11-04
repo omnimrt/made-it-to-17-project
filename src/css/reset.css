@@ -13,7 +13,8 @@ p:last-child {
   margin-bottom: 0;
 }
 
-ul {
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -34,11 +35,9 @@ img {
   height: auto;
 }
 
-
 .container {
-  max-width: 320px; 
+  max-width: 375px;
   padding-left: 20px;
-  padding-right: 20px; 
+  padding-right: 20px;
   margin: 0 auto;
-  /* outline: 2px solid red; */
 }
