@@ -1,6 +1,5 @@
 .about-us {
     padding-top: 80px;
-    background-color: #1d1d1d;
 }
 
 .about-title {
@@ -10,7 +9,7 @@
     line-height: 1.14;
     letter-spacing: -0.04em;
     text-transform: capitalize;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .about-title-color {
@@ -24,8 +23,18 @@
     gap: 40px;
 }
 
-.img {
+.about-picture {
     width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 90px;
+    background-color: transparent;
+}
+
+.about-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .about-list {
@@ -59,13 +68,16 @@
     .about-title {
         font-size: 48px;
         line-height: 1.13;
+        margin-bottom: 50px;
     }
     
     .about-wrap {
         gap: 50px;
     }
 
-    .img {}
+    .about-picture {
+        border-radius: 170px;
+    }
     
     .about-list {
         flex-direction: row;
@@ -99,7 +111,8 @@
         gap: 40px;
     }
 
-    .img {
+    .about-picture {
+        border-radius: 130px;
     }
 
     .about-list {
