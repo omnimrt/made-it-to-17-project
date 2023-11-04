@@ -316,8 +316,11 @@ a {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1411px) {
-
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .footer {
+    width: auto;
+    height: auto;
+  }
   .footer-all {
     width: 768px;
     padding-left: 32px;
@@ -331,5 +334,22 @@ a {
   }
   .footer-ul-menu {
     gap: 14px;
+  }
+  .footer-form {
+    gap: 8px;
+  }
+  .footer-input {
+    width: 178px;
+    height: 60px;
+  }
+  .footer-privacy-policy {
+    padding-bottom: 20px;
+  }
+  .footer-paragraph-one {
+    margin: 0;
+    padding-left: 32px;
+  }
+  .footer-paragraph-two {
+    margin-right: 32px;
   }
 }
