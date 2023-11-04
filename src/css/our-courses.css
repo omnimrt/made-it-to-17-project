@@ -70,7 +70,7 @@
     counter-increment: item;
 }
 
-.course-btn {
+.course-icon-btn {
     background-color: #1D1D1D;
     border-radius: 50%;
     border: none;
@@ -91,13 +91,13 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.course-btn:hover,
-.course-btn:focus {
+.course-icon-btn:hover,
+.course-icon-btn:focus {
     background-color: #BEA69E;
 }
 
-.course-btn:hover .arrow-icon,
-.course-btn:focus .arrow-icon {
+.course-icon-btn:hover .arrow-icon,
+.course-icon-btn:focus .arrow-icon {
     fill: #FFFFFF;
 }
 
@@ -157,7 +157,7 @@
         padding: 32px;
     }
 
-    .course-btn {
+    .course-icon-btn {
         right: 32px;
         top: 32px;
     }
