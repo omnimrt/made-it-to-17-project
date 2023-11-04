@@ -24,26 +24,32 @@
     }
     
     .our-mentors-list{
-      display: flex;
-      flex-wrap: wrap;
+      
+      align-items: center;
+      justify-content: center;
       list-style: none;
       margin: 0;
       padding: 0;
-      gap:72px;
-      
-    }
+  }
+     
     
     .our-mentors-item{
-    align-items: center;
-    padding-top: 72px; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 72px; 
+      width: 100%;
+
     }
     
-    
-    
-img{
-    border-radius: 200px;
-    background: var(--avatar-user-square-brianna-ware-neutral-background, url(<path-to-image>), lightgray 50% / cover no-repeat, #E0E0E0); 
-}
+
+    .our-mentors-img{
+      border-radius: 200px;
+      background: var(--avatar-user-square-brianna-ware-neutral-background, url(<path-to-image>), lightgray 50% / cover no-repeat, #E0E0E0);
+    }
+  
+ 
+   
      
     .our-mentors-subtitle{
     color: #FFF;
@@ -65,12 +71,13 @@ img{
     }
   
 
-    @media screen and (min-width:320px) and (max-width:768){
-    }
-    @media screen and (min-width:768px){
+
+
+  
+
+    @media screen and (min-width:768px) {
 
     .our-mentors{
-      width: 704px;
       padding-left: 32px;
       padding-right: 32px;
     }
@@ -81,22 +88,18 @@ img{
         line-height: 1.12;
         
       }
-    
-    .our-mentors-list{
-        gap: 100px 93px;
-        margin-top: 104px;
-      }
-    
-      .our-mentors-item{
-      width: calc((100% - 293px) / 4);
-      display: flex;
-      width: 194px;
-      flex-direction: column;
-      align-items: center;
-      gap: 16px;
+  
+     .our-mentors-item{
 
+       width: calc((100% - 100px) / 2);
       }
-    
+
+      .our-mentors-list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 93px 100px;
+      }
+
       .our-mentors-subtitle{
         text-align: center;
         font-size: 28px;
@@ -116,7 +119,6 @@ img{
     
   
       .our-mentors{
-        width: 1240;
         padding: 150px 100px;
       }
     
@@ -127,15 +129,24 @@ img{
       letter-spacing: -0.04em;
     }
     
-    .our-mentors-list{
-     width: calc((100% - 300px) / 4);
-    }
+   
     
-    .our-mentors-item{
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      margin: 104px 100px 70px 103px;
+    
+    
+      .our-mentors-item{
+
+        width: calc((100% - 300px) / 4);
+       }
+ 
+       .our-mentors-list{
+        display: flex;
+        flex-wrap: wrap;
+         gap: 100px;
+       }
+      
+       .our-mentors-list:not(:last-child)::after{
+        display: block;
+       }
     }
     
     .our-mentors-subtitle{
@@ -151,4 +162,4 @@ img{
       line-height: 1.28;
       letter-spacing: -0.02em;
     }
-    }
+    
