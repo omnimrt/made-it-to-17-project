@@ -25,9 +25,9 @@
     font-size: 14px;
     font-family: DM Sans;
     line-height: 1.29;
-    max-width: 295px;
+    max-width: 305px;
     text-align-last: left;
-    margin-bottom: 41px;
+    margin-bottom: 40px;
 }
 
 .sign-up-form {
@@ -48,6 +48,11 @@
     font-family: DM Sans;
     line-height: 1.29;
 }
+
+.sign-up-input:focus {
+    border: 1px rgba(255, 255, 255, 0.50) solid;
+}
+
 .sign-up-message {
     width: 100%;
     height: 112px;
@@ -61,6 +66,7 @@
     padding: 14px 18px 14px 0;
     margin-bottom: 40px;
 }
+
 
 ::placeholder {
     color: white;
@@ -88,14 +94,130 @@
     text-align: center;
     margin-bottom: 20px;
 }
+
+.sign-up-btn:focus {
+    background-color: #1D1D1D;
+    color: #BEA69E;
+}
+
 .privacy-policy-text {
     color: rgba(255, 255, 255, 0.50);
     font-size: 12px;
     font-family: DM Sans;
-    font-weight: 400;
     line-height: 1.33;
-    max-width: 335px;
+    max-width: 340px;
 }
 .privacy-policy-link {
     text-decoration: underline;
+}
+
+.img-container {
+    display: none;
+}
+
+@media screen and (min-width: 375px) {
+    .sign-up-container {
+        max-width: 375px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sign-up-container {
+        max-width: 100%;
+    }
+
+    .sign-up {
+        margin-bottom: 100px;
+    }
+
+    .section-title {
+        font-size: 48px;
+    }
+
+    .section-text {
+        font-size: 16px;
+        line-height: 1.25;
+        max-width: 480px;
+    }
+
+    .sign-up-form {
+        gap: 14px;
+    }
+
+    .sign-up-input {
+        max-width: 480px;
+        height: 60px;
+    }
+
+    .sign-up-message {
+        max-width: 480px;
+        height: 120px;
+    }
+
+    .sign-up-btn {
+        max-width: 480px;
+        height: 60px;
+        font-size: 18px;
+        line-height: 1.56;
+    }
+
+    ::placeholder {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .privacy-policy-text {
+        max-width: 480px;
+        font-size: 14px;
+        line-height: 1.29;
+
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .sign-up-container {
+        max-width: 480px;
+        margin: 0;
+    }
+
+    .sign-up {
+        margin-bottom: 150px;
+    }
+
+    .img-container {
+        display: flex;
+        align-items: flex-end;
+        gap: 20px;
+        width: 540px;
+        height: 540px;
+    }
+
+    .sign-up {
+        display: flex;
+        gap: 60px;
+    }
+    .lens-wrap {
+        background-color: #BEA69E;
+        width: 180px;
+        height: 288px;
+        border-radius: 1000px;
+        padding: 76px 19px 62px 19px;
+    }
+
+    .lens-wrap img {
+        min-width: 145%;
+        transform: translateX(-30%);
+       
+    }
+
+    .camera-wrap {
+        background-color: #1D1D1D;
+        width: 340px;
+        height: 540px;
+        border-radius: 1000px;
+        padding: 156px 50px 88px;
+    }
+    
+    
 }
