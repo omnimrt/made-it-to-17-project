@@ -1,0 +1,113 @@
+.about-us {
+    padding-top: 80px;
+    background-color: #1d1d1d;
+}
+
+.about-title {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+.about-title-color {
+    color: #BEA69E;
+}
+
+.about-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 40px;
+}
+
+.img {
+    width: 100%;
+}
+
+.about-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+
+.about-item {}
+
+.about-item-text {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+/* ---------------------------------------------------- */
+/* ------------------- MEDIA TABLET ------------------- */
+@media screen and (min-width: 768px) {
+    .about-us {
+        padding-top: 100px;
+    }
+
+    .container {
+        padding: 0 32px;
+        max-width: 768px;
+    }
+    .about-title {
+        font-size: 48px;
+        line-height: 1.13;
+    }
+    
+    .about-wrap {
+        gap: 50px;
+    }
+
+    .img {}
+    
+    .about-list {
+        flex-direction: row;
+        gap: 40px;
+    }
+    
+    .about-item {
+        width: 280px;
+    }
+    
+    .about-item-text {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}
+
+/* ---------------------------------------------------- */
+/* ------------------- MEDIA DESKTOP ------------------ */
+@media screen and (min-width: 1280px) {
+    .about-us {
+        padding-top: 150px;
+    }
+
+    .container {
+        padding: 0 100px;
+        max-width: 1280px;
+    }
+
+    .about-wrap {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .img {
+    }
+
+    .about-list {
+        gap: 20px;
+    }
+
+    .about-item {
+        width: 268px;
+        /*width: calc((100% - 20px) / 2);*/
+    }
+}
