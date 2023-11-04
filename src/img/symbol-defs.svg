@@ -3,8 +3,9 @@
 <symbol id="icon-star-filled" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M16 4l3.708 7.9 8.292 1.274-6 6.144 1.416 8.682-7.416-4.1-7.416 4.1 1.416-8.68-6-6.148 8.292-1.274 3.708-7.898z"></path>
 </symbol>
-<symbol id="icon-arrow-narrow-up-right-1" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M8 24l16-16M13.333 8h10.667v10.667"></path>
+<symbol id="arrow" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M8 24l16-16"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M13.333 8h10.667v10.667"></path>
 </symbol>
 <symbol id="icon-star-empty" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M16 2.667l4.12 8.346 9.213 1.347-6.666 6.493 1.573 9.174-8.24-4.334-8.24 4.334 1.573-9.174-6.666-6.493 9.213-1.347 4.12-8.346z"></path>
@@ -24,7 +25,7 @@
 </symbol>
 
 
-<symbol id="icon-Arrow-2-Stroke" viewBox="0 0 58 32">
+<symbol id="arrow" viewBox="0 0 58 32">
 <path d="M40 2.144l17.6 13.856-17.6 13.856v-11.456h-40v-4.8h40v-11.456z"></path>
 </symbol>
 <symbol id="icon-star" viewBox="0 0 32 32">
