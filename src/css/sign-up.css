@@ -51,7 +51,7 @@
     font-size: 14px;
     font-family: DM Sans;
     line-height: 1.29;
-}
+} 
 
 .sign-up-input:focus {
     border: 1px rgba(255, 255, 255, 0.50) solid;
