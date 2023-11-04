@@ -25,7 +25,7 @@
 
 
 <symbol id="icon-star" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M16 2.667l4.12 8.347 9.213 1.347-6.667 6.493 1.573 9.173-8.24-4.333-8.24 4.333 1.573-9.173-6.667-6.493 9.213-1.347 4.12-8.347z"></path>
+<path  d="M10.0001 1.66667L12.5751 6.88334L18.3334 7.72501L14.1667 11.7833L15.1501 17.5167L10.0001 14.8083L4.85008 17.5167L5.83341 11.7833L1.66675 7.72501L7.42508 6.88334L10.0001 1.66667Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </symbol>
 <symbol id="icon-Arrow-2-Stroke" viewBox="0 0 58 32">
 <path d="M40 2.144l17.6 13.856-17.6 13.856v-11.456h-40v-4.8h40v-11.456z"></path>
