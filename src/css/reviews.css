@@ -1,5 +1,4 @@
 .reviews-container {
-  background-color: #121212;
   padding-bottom: 80px;
 }
 .reviews-wrapper {
@@ -81,13 +80,6 @@
     display: none;
   }
 
-  .reviews-wrapper {
-    width: 335px;
-    height: 316px;
-    flex-shrink: 0;
-    margin-bottom: 80px;
-  }
-
   .review-item {
     width: 335px;
     height: 244px;
@@ -97,10 +89,6 @@
 @media (min-width: 768px) and (max-width: 1279px) {
   .mob-item-hidden {
     display: none;
-  }
-
-  .reviews-wrapper {
-    margin-left: 32px;
   }
 
   .review-item {
@@ -140,9 +128,8 @@
 }
 
 @media (min-width: 1280px) {
-  .reviews-wrapper {
-    margin-left: 100px;
-    margin-right: 100px;
+  .reviews-container {
+    padding-bottom: 150px;
   }
 
   .review-item {
