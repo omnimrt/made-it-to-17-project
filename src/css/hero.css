@@ -1,22 +1,20 @@
 .hero {
   background: #121212;
-  color: #FFFFFFB2;
 }
 
-.container {
+.hero-container {
 max-width: 375px;
-padding-left: 20;
+padding-left: 20px;
 padding-right: 20px;
+background: #121212;
+margin: 0 auto;
+border-radius: 30px;
+  color: #FFFFFFB2;
+outline: 2px solid red;
 }
 
 .img{
   border-radius: 0;
-}
-
-.hero-container {
-border-radius: 30px;
-background: #1D1D1D;
-max-width: 335px;
 }
 
 .hero-title{
@@ -47,9 +45,12 @@ letter-spacing: -0.02em;
 margin-bottom: 40px;
 }
 
+.hero-text-break{
+  white-space: pre-line; 
+}
+
 .hero-block {
 display: inline-flex;
-height: 84px;
 justify-content: center;
 align-items: flex-start;
 flex-shrink: 0;
@@ -69,12 +70,14 @@ margin-bottom: 31px;
 .hero-student-item {
   flex-shrink: 0;
   border-radius: 100px;
-  width: 44px;
-  height: 44px;
+  
   position: relative;
   margin-right: -12px; 
-  
-}
+  }
+
+  .hero-student-image{
+    width: 44px;
+  }
 .hero-student-item:nth-child(1) {
   z-index: 3;
 }
@@ -85,12 +88,14 @@ margin-bottom: 31px;
   z-index: 1;
 }
 
+/* Опціональний стиль для першого елемента */
 .hero-student-item:first-child {
   margin-left: 0;
 }
 
+/* Опціональний стиль для третього елемента */
 .hero-student-item:nth-child(3) {
-  margin-right: 0;
+  margin-right: 0; /* Немає відступу справа для третього елемента */
 }
 
 
@@ -120,14 +125,17 @@ fill: #FFFFFF;
   gap: 12px;
 }
 
-.hero-star-circle {
+.hero-star-ciurcle{
   border-radius: 50%;
   background-color: #BEA69E;
   width: 44px;
   height: 44px;
-  position: relative;
-}
+  position: relative; /* Додаємо позиціонування для контейнера кола */
 
+}
+.hero-icon-star {
+  
+}
 .hero-reviews-icon {
   width: 100%;
   height: 100%;
@@ -135,12 +143,14 @@ fill: #FFFFFF;
     position: absolute;
   top: 0%;
   left: 00%;
-  transform: translate(20%, 0%);
+  transform: translate(20%, 20%); /* Розміщуємо іконку по центру кола */
       
 }
 
 
 
+.hero-block-reviews-text {
+}
 .hero-reviews {
 color: rgba(255, 255, 255, 0.50);
 font-size: 14px;
@@ -159,5 +169,127 @@ letter-spacing: -0.04em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border-radius: 0px;
+}
+.hero-rectangle-radius{
+  border-radius: 0;
+}
+
+/* Стилі для розміру 375px і більше (мобільні пристрої з більшим розміром) */
+@media screen and (min-width: 375px) {
+.container {
+  max-width: 375px; 
+  margin: 0 auto;
+  
+}
+}
+
+
+
+@media screen and (min-width: 768px) {
+.hero-container {
+  max-width: 768px;
+  padding-left: 32px;
+  padding-right: 32px;
+  }
+.hero-title{
+  font-size: 60px;
+  line-height: 1.07;
+  letter-spacing: -0.04em;
+  padding-top: 64px;
+    color: #FFF;
+font-weight: 500;
+}
+.hero-span{
+  font-size: 60px;
+  color: #BEA69E;
+  line-height: 1.07;
+
+}
+.hero-text {
+  width: 418px;
+font-size: 14px;
+line-height: 1,28;
+letter-spacing: -0.02em;
+  }
+
+  .hero-text-break{
+      white-space: normal; 
+  }
+  .hero-block-student{
+      display: flex;
+      margin-bottom: 0;
+  }
+  .hero-student{
+      display: block;
+  }
+  .hero-block {
+    margin-bottom: 40px;
+
+    }
+  .hero-student-item{
+    
+  }
+  .hero-student-list{
+    margin-right: 12px;
+    margin-bottom: 0;
+  }
+
+  .hero-student-image{
+    width: 54px;
+
+  }
+  .hero-student-text{
+font-size: 16px;
+line-height: 1.25; 
+margin-bottom: 8px;
+  }
+
+  .hero-student-list{
+      width: 137px;
+  }
+
+  .hero-star-ciurcle{        
+    width: 50px;
+    height: 50px;
+  }
+
+  .hero-reviews{
+    font-size: 16px;
+line-height: 1.25; 
+  }
+  .hero-reviews-1500 {        
+    line-height: 1.25;
+    }
+
+    .hero-rectangle {
+      width: 393px;
+      margin: 0 auto;
+    }
+    
+
+/* Стилі для настільних пристроїв (від 1280px) */
+@media screen and (min-width: 1280px) {
+.hero{
+}
+.hero-container-left{
+}
+
+.hero-container{
+max-width: 1080px;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 80px;
+border-radius: 0;
+display: flex;
+}
+.hero-title{
+font-size: 64px;
+width: 563px;
+padding-top: 0;
+
+}
+.hero-block{
+margin-bottom: 50px;
+}
+}
 }

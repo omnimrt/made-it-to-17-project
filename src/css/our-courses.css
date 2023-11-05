@@ -86,8 +86,8 @@
 }
 
 .arrow-icon {
-    fill: #777777;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    stroke: #777777;
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .course-icon-btn:hover,
@@ -97,7 +97,7 @@
 
 .course-icon-btn:hover .arrow-icon,
 .course-icon-btn:focus .arrow-icon {
-    fill: #FFFFFF;
+    stroke: #FFFFFF;
 }
 
 .course-subtitle {
