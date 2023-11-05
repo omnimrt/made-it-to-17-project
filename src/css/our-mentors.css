@@ -1,4 +1,6 @@
 .our-mentors{
+    padding-top: 100px;
+    padding-bottom: 100px;
     padding-left: 20px;
     padding-right: 20px;
     flex-shrink: 0;
@@ -16,7 +18,7 @@
       font-weight: 500;
       line-height: 1.14;
       letter-spacing: -0.04em;
-     
+      padding-left: 20px;
     }
     
     .our-mentors-title span{
@@ -38,6 +40,7 @@
       flex-direction: column;
       align-items: center;
       padding-top: 72px; 
+      flex-wrap: wrap;
       width: 100%;
 
     }
@@ -77,12 +80,14 @@
 
     @media screen and (min-width:768px) {
 
-    .our-mentors{
-      padding-left: 32px;
-      padding-right: 32px;
-    }
+      .our-mentors{
+        max-width: 768px;
+        padding: 100px 32px;
+      }
+
 
     .our-mentors-title{
+        padding-left: 20px;
         text-align: left;
         font-size: 48px;
         line-height: 1.12;
@@ -117,16 +122,19 @@
     
     @media screen and (min-width:1280px){
     
-  
+
       .our-mentors{
         padding: 150px 100px;
+        max-width: 1280px;
       }
+
     
       .our-mentors-title{
       text-align: left;
       font-size: 48px;
       line-height: 1.12;
       letter-spacing: -0.04em;
+      padding-left: 20px;
     }
     
    
