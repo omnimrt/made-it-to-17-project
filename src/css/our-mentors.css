@@ -12,7 +12,7 @@
 
 
     .our-mentors-title{
-      text-align: left;
+     
       color: #FFF;
       font-size: 28px;
       font-weight: 500;
@@ -81,7 +81,7 @@
     @media screen and (min-width:768px) {
 
       .our-mentors{
-        max-width: 768px;
+      
         padding: 100px 32px;
       }
 
@@ -125,12 +125,12 @@
 
       .our-mentors{
         padding: 150px 100px;
-        max-width: 1280px;
+       
       }
 
     
       .our-mentors-title{
-      text-align: left;
+    
       font-size: 48px;
       line-height: 1.12;
       letter-spacing: -0.04em;
