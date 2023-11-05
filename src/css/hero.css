@@ -1,4 +1,5 @@
 .hero {
+  background: #121212;
 }
 
 .hero-container {
@@ -271,8 +272,7 @@ line-height: 1.25;
 .hero{
 }
 .hero-container-left{
-         
-  }
+}
 
 .hero-container{
 max-width: 1080px;
@@ -281,7 +281,6 @@ padding-right: 50px;
 padding-top: 80px;
 border-radius: 0;
 display: flex;
-
 }
 .hero-title{
 font-size: 64px;
@@ -293,7 +292,4 @@ padding-top: 0;
 margin-bottom: 50px;
 }
 }
-
-
-
-
+}
