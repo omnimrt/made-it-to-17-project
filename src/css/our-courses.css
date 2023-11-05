@@ -4,7 +4,7 @@
 
 .container {
     padding: 0 20px;
-    max-width: 320px;
+    max-width: 100%;
 }
 
 .courses-wrap {
@@ -117,6 +117,14 @@
     letter-spacing: -0.02em;
 }
 
+/* ---------------------------------------------------- */
+/* -------------------- MEDIA 375px ------------------- */
+@media screen and (min-width: 375px) {
+
+    .container {
+        max-width: 375px;
+    }
+}
 /* ---------------------------------------------------- */
 /* ------------------- MEDIA TABLET ------------------- */
 @media screen and (min-width: 768px) {
