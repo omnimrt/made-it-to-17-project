@@ -1,5 +1,6 @@
 .sign-up-container {
     max-width: 375px;
+    margin: 0 20px;
 }
 
 .sign-up {
@@ -196,6 +197,15 @@
 
     .sign-up {
         padding-bottom: 150px;
+    }
+
+    .sign-up-input:hover {
+        border: 1px rgba(255, 255, 255, 0.50) solid;
+    }
+
+    .sign-up-btn:hover {
+        background-color: #1D1D1D;
+        color: #BEA69E;
     }
 
     .img-container {
