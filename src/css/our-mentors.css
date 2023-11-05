@@ -8,7 +8,11 @@
     flex-shrink: 0;
 }
     
-    
+.mentors{
+  max-width: 320px;
+  padding: 20px;
+  margin: 0 auto;
+}
 
 
     .our-mentors-title{
@@ -80,6 +84,12 @@
 
     @media screen and (min-width:768px) {
 
+
+      .mentors{
+        padding: 0 32px;
+        max-width: 768px;
+      }
+
       .our-mentors{
       
         padding: 100px 32px;
@@ -122,6 +132,13 @@
     
     @media screen and (min-width:1280px){
     
+
+.mentors{
+   padding: 0 100px;
+    max-width: 1280px;
+}
+
+
 
       .our-mentors{
         padding: 150px 100px;
