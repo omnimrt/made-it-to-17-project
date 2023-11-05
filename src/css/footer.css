@@ -301,6 +301,7 @@ a {
   .footer-privacy-policy {
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 20px;
   }
   .footer-paragraph-one {
     padding: 0;
@@ -355,7 +356,7 @@ a {
     height: 60px;
   }
   .footer-privacy-policy {
-    padding-bottom: 20px;
+    padding-bottom: 25px;
   }
   .footer-paragraph-one {
     margin: 0;
