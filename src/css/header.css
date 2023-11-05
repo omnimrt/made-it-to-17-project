@@ -4,6 +4,7 @@
 }
 .header-container {
     width: 100%;
+    margin: 0 auto;
 }
 .header-link-wrap {
     display: flex;
@@ -122,7 +123,7 @@
 @media screen and (min-width: 375px) {
     .header-container {
         max-width: 375px;
-        padding: 20px;
+        padding: 20px;  
     }
     .header-link-wrap {
         max-width: 335px;
@@ -137,6 +138,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 20px 32px 40px 32px;
+        
     }
     .header-link-wrap {
         max-width: 504px;
@@ -203,7 +205,7 @@
 @media screen and (min-width: 1280px) {
     .header-container {
         max-width: 1280px;
-        padding: 20px 100px 80px 100px;
+        padding: 20px 100px 80px 100px;  
     }
     .header-link-wrap {
         max-width: 822px;
