@@ -133,11 +133,16 @@
     }
 
     .sign-up {
-        margin-bottom: 100px;
+       padding-bottom: 100px;
     }
 
     .section-title {
         font-size: 48px;
+    }
+
+    .section-title-span {
+        font-size: 48px;
+
     }
 
     .section-text {
@@ -190,7 +195,7 @@
     }
 
     .sign-up {
-        margin-bottom: 150px;
+        padding-bottom: 150px;
     }
 
     .img-container {
