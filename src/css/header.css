@@ -1,9 +1,16 @@
 
 .header {
-    background-color: #121212;
-}
-.header-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
     width: 100%;
+    /*background-color: #121212;*/
+    padding-top: 20px;
+    /*padding-bottom: 20px;*/
+}
+.container {
+    max-width: 100%;
     margin: 0 auto;
 }
 .header-link-wrap {
@@ -12,7 +19,7 @@
     align-items: center;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
-    background: #121212;
+    background-color: #121212;
     padding: 15px 20px;
     width: 100%;
 }
@@ -108,7 +115,7 @@
 }
 .navigation-block-two {
     background-color: #BEA69E;
-    background-image: url(../img/navigation-photo/navigation-photo.jpg);
+    background-image: url(/img/navigation-photo/navigation-photo.jpg);
     width: 218px;
     min-height: 329px;
     background-repeat: no-repeat;
@@ -117,13 +124,17 @@
 }
 @media (min-resolution: 192dpi) {
     .navigation-block-two {
-        background-image: url(../img/navigation-photo/navigation-photo-2x.jpg);
+        background-image: url(/img/navigation-photo/navigation-photo-2x.jpg);
     }
 }
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
 @media screen and (min-width: 375px) {
-    .header-container {
+    .container {
         max-width: 375px;
-        padding: 20px;  
     }
     .header-link-wrap {
         max-width: 335px;
@@ -131,13 +142,16 @@
     
 }
 @media screen and (min-width: 768px) {
-    .header-container {
+    /*.header {
+        padding-bottom: 40px;
+    }*/
+    .container {
         max-width: 768px;
         display: flex;
         gap: 14px;
         align-items: center;
         justify-content: space-between;
-        padding: 20px 32px 40px 32px;
+        padding: 0 32px;
         
     }
     .header-link-wrap {
@@ -192,20 +206,23 @@
         gap: 28px;
     }
     .navigation-block-two {
-        background-image: url(../img/navigation-photo/navigation-photo-tablet.jpg);
+        background-image: url(/img/navigation-photo/navigation-photo-tablet.jpg);
         width: 480px;
         min-height: 480px;
     }
     @media (min-resolution: 192dpi) {
       .navigation-block-two {
-         background-image: url(../img/navigation-photo/navigation-photo-tablet-2x.jpg);
+         background-image: url(/img/navigation-photo/navigation-photo-tablet-2x.jpg);
       }
     }
 }
 @media screen and (min-width: 1280px) {
-    .header-container {
+    /*.header {
+        padding-bottom: 80px;
+    }*/
+    .container {
         max-width: 1280px;
-        padding: 20px 100px 80px 100px;  
+        padding: 0 100px;  
     }
     .header-link-wrap {
         max-width: 822px;
@@ -235,7 +252,7 @@
         padding: 16px 84px;
     }  
 }
-@media screen and (min-width: 1440px) {
+/*@media screen and (min-width: 1440px) {
     .header-container {
         max-width: 1440px;
         gap: 20px;
@@ -246,4 +263,4 @@
     .header-list {
         gap: 40px;
     }
-}
+}*/
