@@ -4,8 +4,7 @@
     padding-left: 20px;
     padding-right: 20px;
     flex-shrink: 0;
-    background-color: #121212;
-    flex-shrink: 0;
+  
 }
     
 .mentors{
@@ -181,4 +180,6 @@
       line-height: 1.28;
       letter-spacing: -0.02em;
     }
+    
+
     
