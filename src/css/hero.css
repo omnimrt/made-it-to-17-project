@@ -1,16 +1,21 @@
 .hero {
   background: #121212;
+  position: relative;
+  background-image: url("/src/img/background-header/Graphic.png");
+  z-index: 1;
+  padding-bottom: 80px;
+
 }
 
 .hero-container {
 max-width: 375px;
 padding-left: 20px;
 padding-right: 20px;
-background: #121212;
+background: #1D1D1D;
 margin: 0 auto;
 border-radius: 30px;
   color: #FFFFFFB2;
-outline: 2px solid red;
+/* outline: 2px solid red; */
 }
 
 .img{
@@ -25,6 +30,7 @@ line-height: 1.1;
 letter-spacing: -0.04em;
 padding-top: 40px;
 margin-bottom: 20px;
+width: 295px;
 }
 
 .hero-span{
@@ -43,6 +49,7 @@ font-weight: 400;
 line-height: 1,28;
 letter-spacing: -0.02em;
 margin-bottom: 40px;
+width: 295px;
 }
 
 .hero-text-break{
@@ -70,9 +77,8 @@ margin-bottom: 31px;
 .hero-student-item {
   flex-shrink: 0;
   border-radius: 100px;
-  
   position: relative;
-  margin-right: -12px; 
+  margin-right: -12px;   
   }
 
   .hero-student-image{
@@ -147,7 +153,15 @@ fill: #FFFFFF;
       
 }
 
-
+.hero-text{
+  color: #FFF;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+letter-spacing: -0.28px;
+}
 
 .hero-block-reviews-text {
 }
@@ -170,9 +184,11 @@ letter-spacing: -0.04em;
   flex-wrap: wrap;
   justify-content: center;
 }
-.hero-rectangle-radius{
+
+.hero-rectangle img {
   border-radius: 0;
 }
+
 
 /* Стилі для розміру 375px і більше (мобільні пристрої з більшим розміром) */
 @media screen and (min-width: 375px) {
@@ -198,6 +214,7 @@ letter-spacing: -0.04em;
   padding-top: 64px;
     color: #FFF;
 font-weight: 500;
+width: 500px;
 }
 .hero-span{
   font-size: 60px;
@@ -255,7 +272,8 @@ margin-bottom: 8px;
 
   .hero-reviews{
     font-size: 16px;
-line-height: 1.25; 
+line-height: 1.25;
+margin-bottom: 8px; 
   }
   .hero-reviews-1500 {        
     line-height: 1.25;
@@ -279,17 +297,16 @@ max-width: 1080px;
 padding-left: 50px;
 padding-right: 50px;
 padding-top: 80px;
-border-radius: 0;
 display: flex;
 }
 .hero-title{
 font-size: 64px;
-width: 563px;
 padding-top: 0;
-
+}
+.hero-text{
+  margin-bottom: 136px;
 }
 .hero-block{
-margin-bottom: 50px;
-}
+margin-bottom: 0;}
 }
 }
