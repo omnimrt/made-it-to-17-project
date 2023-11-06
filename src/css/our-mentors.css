@@ -1,8 +1,6 @@
 .our-mentors{
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 80px 32px;
+    margin: 0px 29px;
     flex-shrink: 0;
     background-color: #121212;
   
