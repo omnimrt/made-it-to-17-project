@@ -327,7 +327,7 @@ a {
   }
 }
 
-@media screen (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .footer {
     width: auto;
     height: auto;
@@ -367,8 +367,10 @@ a {
   }
 }
 
-@media screen (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
 
 }
 
-@media screen (min-width: 1440px)
+@media screen and (min-width: 1440px) {
+  
+}
