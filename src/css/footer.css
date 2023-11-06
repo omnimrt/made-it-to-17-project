@@ -327,7 +327,7 @@ a {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768px) {
   .footer {
     width: auto;
     height: auto;
@@ -365,4 +365,12 @@ a {
   .footer-paragraph-two {
     margin-right: 32px;
   }
+}
+
+@media screen and (min-width: 1280px) {
+
+}
+
+@media screen and (min-width: 1440px) {
+  
 }
