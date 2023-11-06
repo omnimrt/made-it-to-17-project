@@ -88,7 +88,7 @@
       }
 
       .mentors{
-        padding-bottom: 100px;
+        
         max-width: 768px;
       }
 
@@ -134,11 +134,13 @@
 .mentors{
   padding-right: 103px;
   padding-left: 103px;
-  padding-left: 100px;
   max-width: 1280px;
 }
 
 
+    .our-mentors{
+      padding-left: 100px;
+    }
     
       .our-mentors-title{
     
