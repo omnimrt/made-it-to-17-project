@@ -1,16 +1,17 @@
 .our-mentors{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     padding-left: 20px;
     padding-right: 20px;
     flex-shrink: 0;
     background-color: #121212;
-    flex-shrink: 0;
+  
 }
     
 .mentors{
   max-width: 320px;
-  padding: 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   margin: 0 auto;
 }
 
@@ -22,7 +23,7 @@
       font-weight: 500;
       line-height: 1.14;
       letter-spacing: -0.04em;
-      padding: 0px 20px;
+      
     }
     
     .our-mentors-title span{
@@ -86,18 +87,15 @@
 
 
       .mentors{
-        padding: 0 32px;
+        padding-top: 100px;
+        padding-bottom: 100px;
         max-width: 768px;
       }
 
-      .our-mentors{
-      
-        padding: 100px 32px;
-      }
-
+  
 
     .our-mentors-title{
-        padding-left: 20px;
+        
         text-align: left;
         font-size: 48px;
         line-height: 1.12;
@@ -134,16 +132,12 @@
     
 
 .mentors{
-   padding: 0 100px;
-    max-width: 1280px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 100px;
+  max-width: 1280px;
 }
 
-
-
-      .our-mentors{
-        padding: 150px 100px;
-       
-      }
 
     
       .our-mentors-title{
@@ -151,7 +145,7 @@
       font-size: 48px;
       line-height: 1.12;
       letter-spacing: -0.04em;
-      padding-left: 20px;
+     
     }
     
    
@@ -187,4 +181,6 @@
       line-height: 1.28;
       letter-spacing: -0.02em;
     }
+    
+
     
