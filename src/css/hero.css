@@ -1,6 +1,5 @@
 .hero {
   background: #121212;
-<<<<<<< Updated upstream
   position: relative;
   background-image: url("/src/img/background-header/Graphic.png");
   z-index: 1;
@@ -17,20 +16,6 @@ margin: 0 auto;
 border-radius: 30px;
   color: #FFFFFFB2;
 /* outline: 2px solid red; */
-=======
-  
-}
-
-.hero-container {
-  outline: 2px solid red;
-  width: 375px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background: #121212;
-  margin: 0 auto;
-  border-radius: 30px;
-    color: #FFFFFFB2;
->>>>>>> Stashed changes
 }
 
 .img{
@@ -201,12 +186,8 @@ letter-spacing: -0.04em;
   flex-wrap: wrap;
   justify-content: center;
 }
-<<<<<<< Updated upstream
 
 .hero-rectangle img {
-=======
-.hero-rectangle-jpg{
->>>>>>> Stashed changes
   border-radius: 0;
 }
 
@@ -334,7 +315,6 @@ margin-bottom: 8px;
   margin-right: 20px;
 }
 
-<<<<<<< Updated upstream
 .hero-container{
 max-width: 1080px;
 padding-left: 50px;
@@ -342,9 +322,6 @@ padding-right: 50px;
 padding-top: 80px;
 display: flex;
 }
-=======
-
->>>>>>> Stashed changes
 .hero-title{
 font-size: 64px;
 padding-top: 0;
@@ -353,18 +330,5 @@ padding-top: 0;
   margin-bottom: 136px;
 }
 .hero-block{
-<<<<<<< Updated upstream
 margin-bottom: 0;}
-=======
-  margin-bottom: 50px;
-
-}
-.hero-rectangle{
-width: 397px;
-}
-.hero-rectangle-jpg{
-  width: 100%;
-}
->>>>>>> Stashed changes
-}
 }
