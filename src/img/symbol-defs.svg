@@ -42,5 +42,8 @@
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M8 24l16-16"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M13.333 8h10.667v10.667"></path>
 </symbol>
+<symbol id="icon-Arrow-2-Stroke" viewBox="0 0 58 32">
+<path d="M40 2.144l17.6 13.856-17.6 13.856v-11.456h-40v-4.8h40v-11.456z"></path>
+</symbol>
 </defs>
 </svg>

@@ -1,27 +1,33 @@
 .hero {
   background: #121212;
   position: relative;
-  background-image: url("/src/img/background-header/Graphic.png");
   z-index: 1;
-  padding-bottom: 80px;
+  margin-top: 130px;
+  margin-bottom: 80px;
 
+  width: auto;
+  height: auto;
+  flex-shrink: 0;
+
+  background-image: url(/img/img-footer/graphic-mobile.png);
+  background-size: cover;
 }
 
 .hero-container {
-max-width: 375px;
+width: 375px;
 padding-left: 20px;
 padding-right: 20px;
 background: #1D1D1D;
 margin: 0 auto;
 border-radius: 30px;
   color: #FFFFFFB2;
-/* outline: 2px solid red; */
 }
 
 .img{
   width: 100%;
   border-radius: 0;
   display: block;
+  
 }
 
 .hero-title{
@@ -73,7 +79,7 @@ margin-bottom: 31px;
   display: flex;
   margin-bottom: 4px;
   overflow: hidden;
-
+  
 }
 
 .hero-student-item {
@@ -105,7 +111,6 @@ margin-bottom: 31px;
 .hero-student-item:nth-child(3) {
   margin-right: 0; /* Немає відступу справа для третього елемента */
 }
-
 
 .hero-student {
   display: flex;
@@ -139,11 +144,8 @@ fill: #FFFFFF;
   width: 44px;
   height: 44px;
   position: relative; /* Додаємо позиціонування для контейнера кола */
+}
 
-}
-.hero-icon-star {
-  
-}
 .hero-reviews-icon {
   width: 100%;
   height: 100%;
@@ -165,8 +167,6 @@ line-height: 18px; /* 128.571% */
 letter-spacing: -0.28px;
 }
 
-.hero-block-reviews-text {
-}
 .hero-reviews {
 color: rgba(255, 255, 255, 0.50);
 font-size: 14px;
@@ -185,26 +185,27 @@ letter-spacing: -0.04em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 
 .hero-rectangle img {
   border-radius: 0;
-}
 
+}
 
 /* Стилі для розміру 375px і більше (мобільні пристрої з більшим розміром) */
 @media screen and (min-width: 375px) {
 .container {
   max-width: 375px; 
   margin: 0 auto;
-  
+  }
 }
-}
-
 
 
 @media screen and (min-width: 768px) {
-.hero {
+
+  .hero{
+    background-image: url(/img/img-footer/graphic-tablet.png);
   }
 
   .hero-container{
@@ -214,7 +215,6 @@ letter-spacing: -0.04em;
     margin: 0 auto;
   }
 
-
 .hero-title{
   font-size: 60px;
   line-height: 1.07;
@@ -223,13 +223,13 @@ letter-spacing: -0.04em;
     color: #FFF;
 font-weight: 500;
 width: 500px;
-}
+  }
+
 .hero-span{
   font-size: 60px;
   color: #BEA69E;
   line-height: 1.07;
-
-}
+  }
 .hero-text {
   width: 418px;
 font-size: 14px;
@@ -249,12 +249,9 @@ letter-spacing: -0.02em;
   }
   .hero-block {
     margin-bottom: 40px;
-
-    }
-  .hero-student-item{
-    
   }
-  .hero-student-list{
+
+    .hero-student-list{
     margin-right: 12px;
     margin-bottom: 0;
   }
@@ -290,26 +287,23 @@ margin-bottom: 8px;
     .hero-rectangle {
       margin: 0 auto;
     }
-
-    
-            }
+}
     
 
 /* Стилі для настільних пристроїв (від 1280px) */
 @media screen and (min-width: 1280px) {
-
-  .hero{
-
-    }
-    .hero-container {
+.hero{
+    background-image: url(/img/img-footer/graphic-pc.png);
+  }
+  
+  .hero-container {
     width: 1080px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 80px;
-    border-radius: 0;
     margin: 0 auto;
     display: flex;
-
+    margin-top: 80px;
     }
 .hero-container-left{
   margin-right: 20px;
@@ -332,3 +326,4 @@ padding-top: 0;
 .hero-block{
 margin-bottom: 0;}
 }
+
