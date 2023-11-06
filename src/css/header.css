@@ -154,6 +154,10 @@
         padding: 0 32px;
         
     }
+    .header-container {
+        display: flex;
+        flex-direction: row;
+    }
     .header-link-wrap {
         max-width: 504px;
         padding: 16px 20px;
