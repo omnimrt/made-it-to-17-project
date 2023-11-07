@@ -9,7 +9,7 @@
     padding-top: 20px;
     /*padding-bottom: 20px;*/
 }
-.container {
+.header-container {
     max-width: 100%;
     margin: 0 auto;
 }
@@ -133,7 +133,7 @@
     pointer-events: auto;
 }
 @media screen and (min-width: 375px) {
-    .container {
+    .header-container {
         max-width: 375px;
     }
     .header-link-wrap {
@@ -145,7 +145,7 @@
     /*.header {
         padding-bottom: 40px;
     }*/
-    .container {
+    .header-container {
         max-width: 768px;
         display: flex;
         gap: 14px;
@@ -154,10 +154,10 @@
         padding: 0 32px;
         
     }
-    .header-container {
+    /*.header-container {
         display: flex;
         flex-direction: row;
-    }
+    }*/
     .header-link-wrap {
         max-width: 504px;
         padding: 16px 20px;
@@ -224,7 +224,7 @@
     /*.header {
         padding-bottom: 80px;
     }*/
-    .container {
+    .header-container {
         max-width: 1280px;
         padding: 0 100px;  
     }
