@@ -3,7 +3,7 @@
   position: relative;
   z-index: 1;
   padding-top: 130px;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 
   width: auto;
   height: auto;
@@ -59,9 +59,9 @@ margin-bottom: 40px;
 width: 295px;
 }
 
-.hero-text-break{
+/* .hero-text-break{
   white-space: pre-line; 
-}
+} */
 
 .hero-block {
 display: inline-flex;
