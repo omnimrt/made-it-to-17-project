@@ -136,9 +136,6 @@
     .header-container {
         max-width: 375px;
     }
-    .header-link-wrap {
-        max-width: 335px;
-    }
     
 }
 @media screen and (min-width: 768px) {
