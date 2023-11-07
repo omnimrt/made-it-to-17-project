@@ -12,6 +12,8 @@
                   name="user-name"
                   id="user-name"
                   placeholder="Enter your name"
+                  required
+                  pattern="[A-Za-z]"
                >
                <input
                   class="sign-up-input"
@@ -19,6 +21,8 @@
                   name="user-email"
                   id="user-email"
                   placeholder="Enter your email"
+                  required
+                  pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$"
                >
                <textarea class="sign-up-message" name="user-message" id="user-message" placeholder="Message"></textarea>
              </form>

@@ -1,6 +1,6 @@
 .sign-up-container {
     max-width: 375px;
-    margin: 0 20px;
+    padding: 0 20px;
 }
 
 .sign-up {
@@ -52,10 +52,13 @@
     font-size: 14px;
     font-family: DM Sans;
     line-height: 1.29;
+    padding: 0 18px;
+
 } 
 
 .sign-up-input:focus {
     border: 1px rgba(255, 255, 255, 0.50) solid;
+    outline: none;
 }
 
 .sign-up-message {
@@ -66,10 +69,16 @@
     background-color: inherit;
     resize: none;
     font-size: 14px;
+    color: white;
     font-family: DM Sans;
     line-height: 1.29;
-    padding: 14px 18px 14px 0;
+    padding: 14px 18px;
     margin-bottom: 40px;
+}
+
+.sign-up-message:focus {
+    border: 1px rgba(255, 255, 255, 0.50) solid;
+    outline: none;
 }
 
 
@@ -79,7 +88,7 @@
     font-family: DM Sans;
     font-weight: 400;
     line-height: 1.29;
-    padding-left: 18px;
+    /* padding-left: 18px; */
 }
 
 .sign-up-btn {
@@ -202,6 +211,11 @@
     .sign-up-input:hover {
         border: 1px rgba(255, 255, 255, 0.50) solid;
     }
+
+    .sign-up-message:hover {
+        border: 1px rgba(255, 255, 255, 0.50) solid;
+        outline: none;
+    }    
 
     .sign-up-btn:hover {
         background-color: #1D1D1D;
