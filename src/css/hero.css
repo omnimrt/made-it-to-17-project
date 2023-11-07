@@ -2,15 +2,14 @@
   background: #121212;
   position: relative;
   z-index: 1;
-  margin-top: 130px;
-  margin-bottom: 80px;
+  padding-top: 130px;
+  padding-bottom: 80px;
 
   width: auto;
   height: auto;
   flex-shrink: 0;
 
   background-image: url(/img/img-footer/graphic-mobile.png);
-  background-size: cover;
 }
 
 .hero-container {
@@ -60,9 +59,9 @@ margin-bottom: 40px;
 width: 295px;
 }
 
-.hero-text-break{
+/* .hero-text-break{
   white-space: pre-line; 
-}
+} */
 
 .hero-block {
 display: inline-flex;
