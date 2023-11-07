@@ -2,7 +2,7 @@
   background: #121212;
   position: relative;
   z-index: 1;
-  margin-top: 130px;
+  padding-top: 130px;
   margin-bottom: 80px;
 
   width: auto;
@@ -10,7 +10,6 @@
   flex-shrink: 0;
 
   background-image: url(/img/img-footer/graphic-mobile.png);
-  background-size: cover;
 }
 
 .hero-container {
