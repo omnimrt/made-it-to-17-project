@@ -457,7 +457,7 @@ a {
     margin-right: 100px;
   }
   .footer-paragraph-one {
-    margin-left: 100px;
+    /* margin-left: 100px; */
     width: 216px;
     padding: 0;
   }
