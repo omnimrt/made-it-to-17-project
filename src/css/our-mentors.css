@@ -1,13 +1,12 @@
 .our-mentors {
-  padding: 0px 20px 80px;
+
   flex-shrink: 0;
-  background-color: #121212;
+  
 }
 
-.mentors {
-  max-width: 320px;
-  margin: 0 auto;
-}
+
+
+
 
 .our-mentors-title {
   color: #fff;
@@ -15,6 +14,7 @@
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: -0.04em;
+  margin-bottom: 40px;
 }
 
 .our-mentors-title span {
@@ -36,6 +36,9 @@
   padding-top: 72px;
   flex-wrap: wrap;
   width: 100%;
+  margin-bottom: 40px;
+  padding: 0;
+ 
 }
 
 .our-mentors-img {
@@ -74,18 +77,17 @@
     padding-bottom: 100px;
   }
 
-  .mentors {
-    max-width: 768px;
-  }
+ 
 
   .our-mentors-title {
     text-align: left;
     font-size: 48px;
     line-height: 1.12;
+    margin-bottom: 50px;
   }
 
   .our-mentors-item {
-    padding-top: 50px;
+    padding: 0;
     width: calc((100% - 100px) / 2);
   }
 
@@ -109,25 +111,21 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .mentors {
-    padding-right: 23px;
-    padding-left: 23px;
-    max-width: 1280px;
-  }
+ 
 
   .our-mentors {
-    padding-left: 100px;
-    padding-right: 100px;
+   
   }
 
   .our-mentors-title {
     font-size: 48px;
     line-height: 1.12;
     letter-spacing: -0.04em;
+    margin-bottom: 50px;
   }
 
   .our-mentors-item {
-    padding-top: 50px;
+    padding: 0;
     width: calc((100% - 300px) / 4);
   }
 
