@@ -73,11 +73,23 @@
     top: 0;
     right: 0%;
     width: 218px;
-    min-height: 812px;
+    height: 100%;
 }
 .navigation-block-one {
     background-color: #BEA69E;
-    padding: 20px 20px 133px 20px;
+    padding: 20px 20px;
+    height: 100%;
+    background-color: #BEA69E;
+    background-image: url(/img/navigation-photo/navigation-photo.jpg);
+    width: 218px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+@media (min-resolution: 192dpi) {
+    .navigation-block-one {
+        background-image: url(/img/navigation-photo/navigation-photo-2x.jpg);
+    }
 }
 .navigation-btn {
     position: absolute;
@@ -112,20 +124,6 @@
 .navigation-item:hover,
 .navigation-item:focus {
     color: #fff;
-}
-.navigation-block-two {
-    background-color: #BEA69E;
-    background-image: url(/img/navigation-photo/navigation-photo.jpg);
-    width: 218px;
-    min-height: 329px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-@media (min-resolution: 192dpi) {
-    .navigation-block-two {
-        background-image: url(/img/navigation-photo/navigation-photo-2x.jpg);
-    }
 }
 .is-open {
     opacity: 1;
@@ -194,10 +192,17 @@
     }
     .navigation-mobile-menu {
         width: 480px;
-        min-height: 1024px;
+        height: 100%;
     }
     .navigation-block-one {
-        padding: 20px 32px 114px 64px;
+        padding: 20px 32px 20px 64px;
+        background-image: url(/img/navigation-photo/navigation-photo-tablet.jpg);
+        width: 480px;
+    }
+    @media (min-resolution: 192dpi) {
+      .navigation-block-one {
+         background-image: url(/img/navigation-photo/navigation-photo-tablet-2x.jpg);
+      }
     }
     .navigation-btn {
         right: 32px;
@@ -205,16 +210,6 @@
     .navigation-list {
         margin-top: 172px;
         gap: 28px;
-    }
-    .navigation-block-two {
-        background-image: url(/img/navigation-photo/navigation-photo-tablet.jpg);
-        width: 480px;
-        min-height: 480px;
-    }
-    @media (min-resolution: 192dpi) {
-      .navigation-block-two {
-         background-image: url(/img/navigation-photo/navigation-photo-tablet-2x.jpg);
-      }
     }
 }
 @media screen and (min-width: 1280px) {
