@@ -1,19 +1,23 @@
-.advertisment {
-    background: #121212;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  }
-  .advertisment__wrapper {
-    display: flex;
-    overflow: hidden;
-    padding: 20px 0;
-  }
-  .advertisment__ticker {
-    display: flex;
-    animation: ticker 4s infinite ease-in-out ;
-  }
-  .advertisment__title {
-    color: #BEA69E;
+.banner-ad {
+  background: #121212;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.banner-ad-title {
+  visibility: hidden;
+}
+.advertisment__wrapper {
+  display: flex;
+  overflow: hidden;
+  padding: 20px 0;
+}
+.advertisment__ticker {
+  display: flex;
+  animation: ticker 4s infinite ease-in-out;
+}
+.advertisment__title {
+  color: #bea69e;
   font-size: 28px;
   font-weight: 400;
   line-height: 32px;
@@ -22,45 +26,44 @@
   min-width: 100%;
   text-transform: uppercase;
   white-space: nowrap;
+}
+
+.advertisment__title span {
+  color: #ffffff;
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(0);
   }
-  
-  .advertisment__title span {
-    color: #FFFFFF;
+  100% {
+    transform: translateX(-100%);
   }
-  
-  @keyframes ticker {
-    0%{ 
-      transform: translateX(0) ;
-    }
-    100%{
-      transform: translateX(-100%) ;
-    }
+}
+
+@media screen and (min-width: 768px) {
+  .advertisment__wrapper {
+    padding: 24px 0;
   }
-  
-  @media screen  and (min-width: 768px){
-    .advertisment__wrapper {
-      padding: 24px 0;
-    }
-    .advertisment__title {
-      color: #BEA69E;
-      font-size: 40px;
+  .advertisment__title {
+    color: #bea69e;
+    font-size: 40px;
     font-weight: 400;
     line-height: 50px;
     letter-spacing: -0.02em;
     text-align: left;
     min-width: 100%;
     text-transform: uppercase;
-    }
   }
-  
-  
-  @media screen  and (min-width: 1280px){
-    .advertisment__wrapper {
-      padding: 24px 0;
-    }
+}
 
-    .advertisment__title {
-      color: #BEA69E;
+@media screen and (min-width: 1280px) {
+  .advertisment__wrapper {
+    padding: 24px 0;
+  }
+
+  .advertisment__title {
+    color: #bea69e;
     font-size: 59px;
     font-weight: 400;
     line-height: 1.1;
@@ -68,5 +71,5 @@
     text-align: left;
     min-width: 100%;
     text-transform: uppercase;
-    }
   }
+}
