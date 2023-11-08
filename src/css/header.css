@@ -1,16 +1,25 @@
 
 .header {
-    background-color: #121212;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
     width: 100%;
-    padding: 20px;
+    /*background-color: #121212;*/
+    padding-top: 20px;
+    /*padding-bottom: 20px;*/
 }
 .header-container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.header-link-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
-    background: #121212;
+    background-color: #121212;
     padding: 15px 20px;
     width: 100%;
 }
@@ -64,11 +73,23 @@
     top: 0;
     right: 0%;
     width: 218px;
-    min-height: 812px;
+    height: 100%;
 }
 .navigation-block-one {
     background-color: #BEA69E;
-    padding: 20px 20px 133px 20px;
+    padding: 20px 20px;
+    height: 100%;
+    background-color: #BEA69E;
+    background-image: url(/img/navigation-photo/navigation-photo.jpg);
+    width: 218px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+@media (min-resolution: 192dpi) {
+    .navigation-block-one {
+        background-image: url(/img/navigation-photo/navigation-photo-2x.jpg);
+    }
 }
 .navigation-btn {
     position: absolute;
@@ -104,39 +125,35 @@
 .navigation-item:focus {
     color: #fff;
 }
-.navigation-block-two {
-    background-color: #BEA69E;
-    background-image: url(../img/navigation-photo/navigation-photo.jpg);
-    width: 218px;
-    min-height: 329px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-@media (min-resolution: 192dpi) {
-    .navigation-block-two {
-        background-image: url(../img/navigation-photo/navigation-photo-2x.jpg);
-    }
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 @media screen and (min-width: 375px) {
-    .header {
-        max-width: 375px;
-    }
     .header-container {
-        max-width: 335px;
+        max-width: 375px;
     }
     
 }
 @media screen and (min-width: 768px) {
-    .header {
+    /*.header {
+        padding-bottom: 40px;
+    }*/
+    .header-container {
         max-width: 768px;
         display: flex;
         gap: 14px;
         align-items: center;
         justify-content: space-between;
-        padding: 20px 32px 40px 32px;
+        padding: 0 32px;
+        
     }
-    .header-container {
+    /*.header-container {
+        display: flex;
+        flex-direction: row;
+    }*/
+    .header-link-wrap {
         max-width: 504px;
         padding: 16px 20px;
     }
@@ -175,10 +192,17 @@
     }
     .navigation-mobile-menu {
         width: 480px;
-        min-height: 1024px;
+        height: 100%;
     }
     .navigation-block-one {
-        padding: 20px 32px 114px 64px;
+        padding: 20px 32px 20px 64px;
+        background-image: url(/img/navigation-photo/navigation-photo-tablet.jpg);
+        width: 480px;
+    }
+    @media (min-resolution: 192dpi) {
+      .navigation-block-one {
+         background-image: url(/img/navigation-photo/navigation-photo-tablet-2x.jpg);
+      }
     }
     .navigation-btn {
         right: 32px;
@@ -187,23 +211,16 @@
         margin-top: 172px;
         gap: 28px;
     }
-    .navigation-block-two {
-        background-image: url(../img/navigation-photo/navigation-photo-tablet.jpg);
-        width: 480px;
-        min-height: 480px;
-    }
-    @media (min-resolution: 192dpi) {
-      .navigation-block-two {
-         background-image: url(../img/navigation-photo/navigation-photo-tablet-2x.jpg);
-      }
-    }
 }
 @media screen and (min-width: 1280px) {
-    .header {
-        max-width: 1280px;
-        padding: 20px 100px 80px 100px;
-    }
+    /*.header {
+        padding-bottom: 80px;
+    }*/
     .header-container {
+        max-width: 1280px;
+        padding: 0 100px;  
+    }
+    .header-link-wrap {
         max-width: 822px;
         padding: 21px 50px;
     }
@@ -231,15 +248,15 @@
         padding: 16px 84px;
     }  
 }
-@media screen and (min-width: 1440px) {
-    .header {
+/*@media screen and (min-width: 1440px) {
+    .header-container {
         max-width: 1440px;
         gap: 20px;
     }
-    .header-container {
+    .header-link-wrap {
         max-width: 981px;
     }
     .header-list {
         gap: 40px;
     }
-}
+}*/
