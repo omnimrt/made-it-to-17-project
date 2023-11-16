@@ -6,6 +6,7 @@
                 Please use the form below to contact us. Enter your name, email, and message and we'll get back to you shortly.
              </p>
              <form class="sign-up-form">
+               <label for="user-name"></label>
                <input 
                   class="sign-up-input"
                   type="text"
@@ -13,8 +14,9 @@
                   id="user-name"
                   placeholder="Enter your name"
                   required
-                  pattern="[A-Za-z]"
+                  pattern="[A-Za-z0-9]+"
                >
+               <label for="user-email"></label>
                <input
                   class="sign-up-input"
                   type="email"
@@ -22,11 +24,11 @@
                   id="user-email"
                   placeholder="Enter your email"
                   required
-                  pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$"
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
                >
                <textarea class="sign-up-message" name="user-message" id="user-message" placeholder="Message"></textarea>
-             </form>
-             <button type="submit" class="sign-up-btn">Send</button>
+               <button type="submit" class="sign-up-btn">Send</button>
+            </form>
              <p class="privacy-policy-text">
                By clicking on “Send” button, you agree to our <a href="" class="privacy-policy-link">Privacy Policy</a>,<br> and allow Promodo to use this information for marketing purposes.
              </p>
